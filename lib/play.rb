@@ -40,8 +40,4 @@ def play(board)
   board.length.times do 
     turn(board)
   end
-  
-  9.times do
-    turn(board)
-  end
 end
