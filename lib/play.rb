@@ -36,7 +36,6 @@ def turn(board)
 end
 
 # Define your play method below
-board = Array.new(9, "")
 def play(board)
   board.length.times do 
     turn(board)
